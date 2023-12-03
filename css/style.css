@@ -1,0 +1,184 @@
+html {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  scroll-behavior: smooth;
+  background-color: #f7feff;
+}
+
+a {
+  font-weight: 500;
+  color:black;
+  text-decoration: underline;
+}
+
+a:hover {
+  color:#65d79f
+}
+
+.pregunta {
+  height: 100vh;
+  background: #003060;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#pregunta {
+  font-family: EB Garamond;
+  color: #e7f1ff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 2rem; 
+  max-width: 18%;
+  line-height: 4vh;
+  margin-bottom: 2vh;
+  align-items: center;
+}
+
+.boton {
+  border: 5px solid #003060;
+  display: inline-block;
+  padding: 5px 70px;
+  /*margin-right: 3%;*/
+  background-color: #FF7522;
+  /*color: #f7feff;
+  text-decoration: none;*/
+  /*el color está en in-line*/
+  border-radius: 50px;
+  cursor: pointer;
+  
+}
+
+.botones_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 18%;
+}
+
+.full {
+  width: 100%;
+}
+
+.barras {
+  padding-left: .5%;
+  max-width: 95%;
+}
+
+.naranja {
+  font-weight: 700;
+  color: #FF7522;
+}
+
+#header {
+  max-width: 800px;
+  text-align: center;
+  margin: 5vh auto;
+}
+
+#volanta {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #65d79f;
+  color: white;
+  font-size: 1rem;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+}
+
+#main_title {
+  font-family: Inter Tight;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 0.5vh;
+}
+
+#bajada {
+  font-family: Inter Tight;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: auto;
+  margin-bottom: 2vh;
+}
+
+#autor {
+  font-family: EB Garamond;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 10vh;
+}
+
+.subtitulo {
+  font-family: Inter;
+  font-size: 1.6em;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 2vh;
+}
+
+.texto_container {
+  max-width: 50%;
+  padding: 0 20px;
+  margin: auto;
+  margin-bottom: 100px;
+  text-align: left;
+}
+
+.texto_container_q {
+  max-width: 40%;
+  padding: 0 20px;
+  margin: auto;
+  margin-bottom: 100px;
+  text-align: left;
+}
+
+.texto_parrafo {
+  margin: 50px auto;
+  font-family: EB Garamond;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.quote {
+  font-family: EB Garamond;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+#my-wrapper {
+  margin: auto;
+  max-width: 800px;
+  margin-bottom: 6vh;
+}
+
+.fl-scrolly-step {
+  background-color: #003060 !important;
+  color: white !important;
+  max-width: 400px !important;
+  font-family: EB Garamond !important;
+  font-weight: 400 !important;
+  font-size: 1.2rem;
+}
+
+footer {
+  margin-top: 100px;
+  padding: 60px;
+  background-color: #65d79f;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 45%;
+  margin: auto;
+  font-size: 1rem;
+}
